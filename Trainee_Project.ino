@@ -25,7 +25,6 @@ LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
 int analogPin = A0;
 int keyInput = -1;
-int lastKeyInput = -1;  // Variable to store last key input
 int numKeys = 5;
 int analogKeyValues[5] = { 30, 150, 360, 535, 760 };
 
